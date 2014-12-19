@@ -1,0 +1,25 @@
+<resources>
+    <attr name="imageSrc" format="reference"/>
+    <attr name="imageAspectRatio" format="float"/>
+    <attr name="imageAlpha" format="float"/>
+    <attr name="imagePaddingLeft" format="dimension"/>
+    <attr name="imagePaddingTop" format="dimension"/>
+    <attr name="imagePaddingRight" format="dimension"/>
+    <attr name="imagePaddingBottom" format="dimension"/>
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+    <attr name="xMessage" format="string"/>
+    <declare-styleable name="MyCustomView">
+        <attr name="imageSrc"/>
+        <attr name="imageAspectRatio" />
+        <attr name="imageAlpha" />
+        <attr name="imagePaddingLeft" />
+        <attr name="imagePaddingTop" />
+        <attr name="imagePaddingRight" />
+        <attr name="imagePaddingBottom" />
+        <attr name="imageScaleType" />
+        <attr name="xMessage"/>
+    </declare-styleable>
+</resources>
